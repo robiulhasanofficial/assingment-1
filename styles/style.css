@@ -69,6 +69,32 @@ ul > li {
   margin-bottom: 30px;
 }
 .failure-list {
-  margin-bottom: 30px;
   padding: 0;
+}
+/* My plan style */
+.my-plan {
+  margin-top: 50px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+}
+.plan {
+  text-align: center;
+}
+.plan-title {
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 25px;
+}
+.plan-description {
+  color: #737272;
+  font-size: 25px;
+  line-height: 29px;
 }

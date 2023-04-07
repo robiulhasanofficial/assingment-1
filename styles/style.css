@@ -2,11 +2,14 @@
   margin: 0;
   font-family: "Work Sans";
 }
+main {
+  margin: 0 100px;
+}
 /* banner style */
 .container {
   background-image: url(../images/banner/banner2.png);
   background-size: cover;
-  min-height: 600px;
+  min-height: 640px;
   display: flex;
   justify-content: right;
   align-items: center;
@@ -24,7 +27,7 @@
   margin-bottom: 20px;
 }
 .banner {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: right;
   width: 20%;
 }
@@ -36,4 +39,36 @@
   border: 0;
   padding: 20px 30px;
   border-radius: 5px;
+}
+/* Failure style */
+.failure-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  margin-top: 30px;
+}
+
+ul > li {
+  list-style-position: inside;
+  list-style-image: url(../images/icons/tick-small.png);
+  color: #444343;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.failures-description {
+  padding: 60px;
+}
+.failure-details {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 30px;
+}
+.failure-list {
+  margin-bottom: 30px;
+  padding: 0;
 }

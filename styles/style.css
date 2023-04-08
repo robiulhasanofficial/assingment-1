@@ -161,7 +161,8 @@ ul > li {
   border: 2px solid white;
   border-radius: 5px;
   height: 15%;
-  margin: 15px 0;
+  padding: 10px;
+  margin: 20px 0;
 }
 .subscribe-title {
   font-weight: 700;
